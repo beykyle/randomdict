@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 from setuptools import setup
-import randomdict
+import beykylerandomdict
 
-V = randomdict.__version__
+V = beykylerandomdict.__version__
 
 setup(name='beykylerandomdict',
       version=V,
