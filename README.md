@@ -1,4 +1,6 @@
-## RandomDict [![Build Status](https://travis-ci.org/robtandy/randomdict.svg)](https://travis-ci.org/robtandy/randomdict)##
+## RandomDict [![Build Status](https://travis-ci.org/robtandy/randomdict.svg)](https://travis-ci.org/robtandy/randomdict)
+
+This is based on robtandy/randomdict, the only reason I forked it was to make the change outlined here: https://github.com/robtandy/randomdict/issues/1
 
 #### What is it?
 Random dict is a dictionary compatible with python's `dict` but with a few methods added to facilitate fast random access of elements.  It inherits from `collections.MutableMapping` so it behaves exactly like a python `dict`, once created.
@@ -16,13 +18,13 @@ If you need random key access and cannot afford the time penalty of the above me
 #### Installation
 `randomdict` works and is tested on python2.6+, python3.2+
 
-`pip install randomdict`
+`pip install beykylerandomdict`
 
 #### How do i use it?
 Other than creating one, use it just like a python `dict`.
 
 ```python
-    from randomdict import RandomDict
+    from beykylerandomdict import RandomDict
     
     r = RandomDict() # use it just like a regular python dict
     r['a'] = True
