@@ -5,14 +5,14 @@ import randomdict
 
 V = randomdict.__version__
 
-setup(name='randomdict',
+setup(name='beykylerandomdict',
       version=V,
-      author='Rob Tandy',
-      author_email='rob.tandy@gmail.com',
-      url='https://github.com/robtandy/randomdict',
+      author='Kyle Beyer',
+      author_email='beykyle@umich.edu',
+      url='https://github.com/beykyle/randomdict',
       long_description="""
-      python `dict` compatible object with fast, O(1), random access to keys and values.
+      python `dict` compatible object with fast, O(1), random access to keys and values. Originally written by Rob Tandy.
       """,
-      py_modules=['randomdict'],
+      py_modules=['beykylerandomdict'],
       setup_requires=['nose>=1.0'],
 )
