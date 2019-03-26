@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: beykylerandomdict
+Version: 0.2.0
+Summary: UNKNOWN
+Home-page: https://github.com/beykyle/randomdict
+Author: Kyle Beyer
+Author-email: beykyle@umich.edu
+License: UNKNOWN
+Description: 
+              python `dict` compatible object with fast, O(1), random access to keys and values. Originally written by Rob Tandy.
+              
+Platform: UNKNOWN

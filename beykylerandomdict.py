@@ -1,7 +1,13 @@
-from collections import MutableMapping
-import random
+#!/usr/bin/env python
 
-__version__ = '0.2.0'
+"""@package beykylerandomdict
+"""
+
+import random
+from collections import MutableMapping
+
+__version__ = '1.0'
+__author__ = 'Kyle Beyer'
 
 class RandomDict(MutableMapping):
     def __init__(self, *args, **kwargs):

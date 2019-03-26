@@ -1,0 +1,6 @@
+README.md
+setup.py
+beykylerandomdict.egg-info/PKG-INFO
+beykylerandomdict.egg-info/SOURCES.txt
+beykylerandomdict.egg-info/dependency_links.txt
+beykylerandomdict.egg-info/top_level.txt
