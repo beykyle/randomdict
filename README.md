@@ -17,9 +17,9 @@ If you need random key access and cannot afford the time penalty of the above me
 
 #### Installation
 `randomdict` works and is tested on python2.6+, python3.2+
-
-`pip install beykylerandomdict`
-
+```
+pip install -i https://test.pypi.org/simple/ beykylerandomdict
+```
 #### How do i use it?
 Other than creating one, use it just like a python `dict`.
 
